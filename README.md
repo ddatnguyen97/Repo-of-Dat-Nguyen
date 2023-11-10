@@ -13,11 +13,11 @@ Benefits of using GitFlow:
 - Stable release process: `release` & `hotfix` branches allow you to create release versions and fix bugs separately -> ensure product stability during development. 
 
 GitFlow branches:
-`master` branch: represent the production – ready code, contain the latest stable release of the project. All the code should be deployable & tested. 
-`develop` branch: serve as the integration branch for new features. 
-`feature` branch: it is created for developing new features or enhancements. Once it is completed, this branch is merged into the `develop` branch. 
-`release` branch: it is created when you are preparing to release a new version of your software. Once it is ready, it is merged into both `master` & `develop` branches, and then it is deleted. 
-`hotfix` branch: it is used to quickly address critical issues in the production code. Once it is completed, it will be merged into both `master` & `develop` branches, and then it is deleted. 
+- `master` branch: represent the production – ready code, contain the latest stable release of the project. All the code should be deployable & tested. 
+- `develop` branch: serve as the integration branch for new features. 
+- `feature` branch: it is created for developing new features or enhancements. Once it is completed, this branch is merged into the `develop` branch. 
+- `release` branch: it is created when you are preparing to release a new version of your software. Once it is ready, it is merged into both `master` & `develop` branches, and then it is deleted. 
+- `hotfix` branch: it is used to quickly address critical issues in the production code. Once it is completed, it will be merged into both `master` & `develop` branches, and then it is deleted. 
   
 
 # This is a summary of Docker:
