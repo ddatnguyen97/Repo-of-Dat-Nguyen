@@ -1,0 +1,17 @@
+# This is the summary of Python FastAPI
+What is FastAPI?
+- It is a modern, high-performance web framework for building APIs in Python.
+
+1. Introduction to Python coroutines
+- It is a regular function with the ability to pause its execution when encountering an operation that may take a while to complete.
+- It allows you to write non-blocking code that can perform tasks concurrently.
+- It helps you run the program asynchronously to improve its performance.
+
+To create and pause a coroutine, you use the Python async and await keywords:
+- The async keyword creates a coroutine.
+- The await keyword pauses a coroutine.
+
+2. Python middleware
+A "middleware" is a function that works with every request before it is processed by any specific path operation. And also with every response before returning it.
+It is commonly used to enhance, modify, or inspect data and actions passing through them.
+
